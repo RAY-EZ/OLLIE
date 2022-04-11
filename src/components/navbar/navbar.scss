@@ -1,0 +1,17 @@
+
+.logo{
+  color: $primary-color;
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+  &:visited{
+    color: $primary-color;
+  }
+  &:hover {
+    color: $secondary-color;
+  }
+  &.active-link{
+    color: $tertiory-color;
+  }
+}

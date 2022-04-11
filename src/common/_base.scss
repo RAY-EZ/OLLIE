@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  user-select: none;
+}
+html {
+  font-family: RalewayRegular;
+}
+img {
+  max-height: 20rem;
+}
+// #root {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+// }
