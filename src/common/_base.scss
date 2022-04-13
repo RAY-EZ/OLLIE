@@ -5,13 +5,15 @@
   user-select: none;
 }
 html {
-  font-family: RalewayRegular;
+  font-size: 0.66rem;
+  font-family: RalewayRegular, sans-serif;
 }
-img {
-  max-height: 20rem;
+body {
+  overflow-x: hidden;
+  padding: 2rem;
 }
-// #root {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-// }
+.content__wrapper {
+  max-width: 128rem;
+  margin: 0 auto;
+  background-color: red;
+}

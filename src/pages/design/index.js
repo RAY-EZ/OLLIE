@@ -1,6 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import studioImg  from '../../medias/studio.jpg';
+import Attention from '../../components/attention';
+import Slice from '../../components/slice';
+import Card from '../../components/card';
+
+
 export default function Design(){
   return (
     <main className="content" data-page="home">
@@ -19,47 +23,8 @@ export default function Design(){
           </div>
         </div>
       </section>
-      <section className="attention">
-        <div className="attention__content">
-          <div className="attention__media">
-            <img src={studioImg} alt="interaction" className="image--huge attention--image" />
-          </div>
-          <div className="attention__text">
-            <div className="content__wrapper">
-              <p className="attention__paragraph">
-                We know what you're thinking, 'i want to grow my company, but i'm not sure how..'
-                right? Have not doubts, Ollie is here to help you find clarity in the chaos of your business.
-              </p>
-              <p className="attention__paragraph">
-                By using the power of strategy and design we define your business and set you up for future success in your market.
-                Here will go some more info about how we can help our target audience and others.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="card">
-        <div className="content__wrapper">
-          <div className="card__title">
-            <div className="card__title__video"></div>
-            <h3 className="card__title__label">
-              We are here to help you grow faster and stronger.
-            </h3>
-          </div>
-          <div className="card__content">
-            <div className="card__description">
-              <p className="card__description__paragraph">
-              We are a design & strategy studio specialized in setting up your brand for 
-              sucess. Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Facere eos, accusantium incidunt iusto ratione molestias eum sit 
-              culpa voluptatum officia omnis animi ullam amet iure minus obcaecati inventore, 
-              quaerat velit!
-              </p>
-            </div>
-            <Link className="card__link" to="doesnotexist">Why should you work with us?</Link>
-          </div>
-        </div>
-      </section>
+      <Attention/>
+      <Card/>
       <section className="design section" id="design" data-text-pos="left">
         <div className="section__content">
             <h3 className="section__title">When they ask us how we <br/>say this is how we do it.</h3>
@@ -84,30 +49,7 @@ export default function Design(){
           <img src="" alt="" className="section__media--small" />
         </div>
       </section>
-      <section className="strategy section" id="strategy" data-text-pos="right">
-        <div className="section__content">
-            <h3 className="section__title">A little bit of strategy in my life, <br/>little bit of design by my side.</h3>
-          
-          <h1 className="heading-primary">strategy</h1>
-          <div className="section__description">
-            <p className="section__description__paragraph">
-              We are a desing & strategy studio specialized in settign pu your brand for success. Lorem ipsum dolor, 
-              sit amet consectetur adipisicing elit. Veritatis, vel.
-            </p>
-            <ul className="section__list">
-              <li className="section__list__item">brand workshop</li>
-              <li className="section__list__item">positioning</li>
-              <li className="section__list__item">naming</li>
-              <li className="section__list__item">research</li>
-            </ul>
-            <Link className="section__link" to="#strategy">Learn more about strategy</Link>
-          </div>
-        </div>
-        <div className="section__media">
-          <img src="" alt="" className="section__media--large" />
-          <img src="" alt="" className="section__media--small" />
-        </div>
-      </section>
+      <Slice/>
       <section className="showcase" id="cases">
         <div className="showcase__content">
           <h3 className="showcase__title">Now we can hear you thinking 'that's<br/>

@@ -1,7 +1,27 @@
-
 .logo{
   color: $primary-color;
-  font-size: 2rem;
+  font-family: $font-header;
+  font-size: 3rem;
+  font-weight: 700;
+  cursor: pointer;
+
+  &:hover {
+    color: rgba($primary-color, 0.8)
+  }
+}
+.navbar {
+  display: flex;
+  
+  & .content__wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  &__list{
+    display: flex;
+    flex-grow: 1;
+  }
 }
 a {
   text-decoration: none;
