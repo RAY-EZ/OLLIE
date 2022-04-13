@@ -12,21 +12,22 @@ function NavBar(){
     ['why-work-with-us', 'why work with us?'],
     ['work-with-us', 'Let\'s work together' ]
   ];
+  const addClass = ({isActive})=>{ return isActive?"active-link navbar__link link":"navbar__link link"}
   const NavLinks = [];
   for(let item of data){
-    const link = <NavLink className={({isActive})=>{ return isActive?"active-link":""}} to={item[0]} key={item[0]}>{item[1]}</NavLink>;
+    const link = <NavLink className={addClass} to={item[0]} key={item[0]}>{item[1]}</NavLink>;
     NavLinks.push(link);
   }
 
   
   return (
     <nav className='navbar'>
-      <div className="content__wrapper">
+      {/* <div className="content__wrapper"> */}
         <Link to="" className='logo'>Ollie</Link>
         <div className="navbar__list">
           {NavLinks}
         </div>
-      </div>
+      {/* </div> */}
     </nav>
   )
 }
