@@ -1,0 +1,54 @@
+.card {
+  // background-color: rgba(0,0,0,0.1);
+  // text-align: center;
+  &__wrapper {
+    padding-top: 15rem;
+    // padding-left: 10rem;
+    padding-bottom: 15rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  &__content {
+    width: 45%;
+    margin-right: 20rem;
+
+    &__paragraph {
+      font-size: inherit;
+      line-height: 2;
+      padding-right: 20rem;
+    }
+
+    &__link {
+      border-bottom: 1px solid $primary-color;
+      font-family: inherit;
+      display: inline-block;
+      padding-bottom: 1rem;
+      margin-top: 5rem;
+    }
+  }
+  
+
+  
+  &__title{
+
+    width: 30%;
+    padding-right: 5rem;
+    
+    &__label {
+      @extend %description-20;
+    }
+  }
+  
+  &__title, &__content {
+    @extend %description-20;
+    padding: 5rem;
+    
+  }
+  
+
+
+
+}

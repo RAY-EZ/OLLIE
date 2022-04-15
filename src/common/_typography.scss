@@ -1,48 +1,56 @@
-
 @font-face {
-  font-family: George;
+  font-family: $Raleway;
   src: url('../fonts/georgex-regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: RalewayBold;
+  font-family: $Raleway;
   src: url('../fonts/Raleway-ExtraBold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: RalewayLight;
+  font-family: $Raleway;
   src: url('../fonts/Raleway-Light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: RalewayMedium;
+  font-family: $Raleway;
   src: url('../fonts/Raleway-Medium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: RalewayRegular;
+  font-family: $Raleway;
   src: url('../fonts/Raleway-Regular.ttf') format('truetype');
-  font-weight: 300;
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: Lato;
+  font-family: $Lato;
   src: url('../fonts/Lato-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
-
-h1 {
-  font-size: 4rem;
-  font-family: inherit;
+@font-face {
+  font-family: $Montserrat;
+  src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: $Montserrat;
+  src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }

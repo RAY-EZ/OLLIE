@@ -5,20 +5,46 @@
   user-select: none;
 }
 html {
-  font-size: 0.66rem;
-  font-family: RalewayRegular, sans-serif;
+  // font-size: 0.66rem;
+  font-size: calc((100vw / 1920) * 10);
+  font-family: $Raleway, sans-serif;
 }
 body {
   overflow-x: hidden;
-  padding: 2rem;
+  margin: 2rem;
   background-color: rgba($secondary-color,0.3);
+  border: 1px solid $primary-color;
 }
 .content__wrapper {
-  max-width: 128rem;
+  max-width: 160rem;
   margin: 0 auto;
   // background-color: red;
 }
 a {
+  font-family: inherit;
   text-decoration: none;
-  color: $primary-color;
+  color: inherit;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: inherit;
+}
+
+// .heading-primary{
+//   font-family: $Montserrat;
+//   letter-spacing: -0.5rem;
+//   font-size: 22rem;
+// }
+
+p {
+  // @extend %description-18;
+  // letter-spacing:$letter-space-low;
+  &::first-letter{
+    text-transform: uppercase;
+  }
+}
+
+img{
+  object-fit:cover;
 }

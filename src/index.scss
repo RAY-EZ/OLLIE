@@ -1,6 +1,13 @@
 @import "./common/_reset";
 @import "./common/_variables";
+@import "./shared/description";
+@import "./shared/link";
+@import "./shared/title";
 @import "./common/_base";
 @import "./common/_typography";
 
-@import "./components/navbar/navbar"
+@import "./components/navbar/navbar";
+@import "./components/attention/attention";
+@import "./components/card/card";
+@import "./components/slice/slice";
+@import "./pages/design/design";

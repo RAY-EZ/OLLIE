@@ -5,7 +5,7 @@ import studioImg  from '../../medias/studio.jpg';
 function Attention(){
   return (
     <section className="attention">
-    <div className="attention__content">
+    {/* <div className="attention__content"> */}
       <div className="attention__media">
         <img src={studioImg} alt="interaction" className="image--huge attention--image" />
       </div>
@@ -21,7 +21,7 @@ function Attention(){
           </p>
         </div>
       </div>
-    </div>
+    {/* </div> */}
     </section>
   )
 }

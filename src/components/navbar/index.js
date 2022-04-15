@@ -22,12 +22,12 @@ function NavBar(){
   
   return (
     <nav className='navbar'>
-      {/* <div className="content__wrapper"> */}
+      <div className="content__wrapper">
         <Link to="" className='logo'>Ollie</Link>
         <div className="navbar__list">
           {NavLinks}
         </div>
-      {/* </div> */}
+      </div>
     </nav>
   )
 }
