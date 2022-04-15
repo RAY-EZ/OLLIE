@@ -18,7 +18,7 @@ function Footer(){
              <p className="contact__number heading--light">(+91)9157XXXXX7</p>
             </div>
           </div>
-          <Link to="/">
+          <Link to="#top">
             <img src={rightArrow} className="contact__link" alt="" />
           </Link>
         </div>

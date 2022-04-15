@@ -3,10 +3,13 @@ import { Link} from 'react-router-dom';
 
 function Default(){
   return(
-    <>
-      <h1>Dummy Route</h1>
-      <p>Go back to {<Link to="/">Home Page</Link>}</p>
-    </>
+    <div className="default">
+      <div className="content__wrapper">
+        <h1 className="default__heading">Dummy Route</h1>
+        <p className="default__message">Go back to {<Link to="/" className="link">Home Page</Link>}</p>
+      </div>
+
+    </div>
   )
 }
 

@@ -1,6 +1,6 @@
 .intro, .outro{
   width: 100%;
-
+  padding-top: 5rem;
   &__title{
     @extend %title-300;
   }

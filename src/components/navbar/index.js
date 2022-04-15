@@ -6,7 +6,7 @@ import {Link, NavLink} from 'react-router-dom'
 function NavBar(){
   const data = [
     ['', 'design'],
-    ['strategy','Strategy'],
+    ['#strategy','Strategy'],
     ['cases', 'cases'],
     ['about','about'],
     ['why-work-with-us', 'why work with us?'],
@@ -21,7 +21,7 @@ function NavBar(){
 
   
   return (
-    <nav className='navbar'>
+    <nav className='navbar' id='top'>
       <div className="content__wrapper">
         <Link to="" className='logo'>Ollie</Link>
         <div className="navbar__list">

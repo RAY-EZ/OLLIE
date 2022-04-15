@@ -1,0 +1,9 @@
+.default{
+  padding-top: 10rem;
+  .default__heading{
+    @extend %title-100;
+  }
+  .default__message{
+    @extend %description-22;
+  }
+}
