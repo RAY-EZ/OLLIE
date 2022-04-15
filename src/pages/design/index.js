@@ -4,7 +4,9 @@ import Attention from '../../components/attention';
 import Slice from '../../components/slice';
 import Card from '../../components/card';
 import imgMeeting from '../../medias/meeting.jpg'
-import imgChairs from '../../medias/chairs.jpg'
+import imgChairs from '../../medias/chairs.jpg';
+import rightArrow from '../../medias/right-arrow.svg';
+import Showcase from '../../components/showcase'
 
 export default function Design(){
   return (
@@ -51,50 +53,17 @@ export default function Design(){
         </div>
       </section>
       <Slice/>
-      <section className="showcase" id="cases">
-        <div className="showcase__content">
-          <h3 className="showcase__title">Now we can hear you thinking 'that's<br/>
-           nice and all but can you back it all up?'.<br/>
-           Sure we can, here are some cases.</h3>
-           <div>
-            <h1 className="heading-primary">cases</h1>
-            <Link className="showcase__link link" to="#cases">See all of our cases</Link>
-           </div>
-           <ul className="showcase__list">
-             <li className="showcase__list__item">
-               <h4 className="showcase__list__item__number">01</h4>
-               <h2 className="showcase__list__item__label">Lean</h2>
-               <Link className="showcase__list__item__link" to="/">
-                 <svg className="right-arrow"></svg>
-               </Link>
-             </li>
-             <li className="showcase__list__item">
-               <h4 className="showcase__list__item__number">02</h4>
-               <h2 className="showcase__list__item__label">The Harbour</h2>
-               <Link className="showcase__list__item__link" to="/">
-                 <svg className="right-arrow"></svg>
-               </Link>
-             </li>
-             <li className="showcase__list__item">
-               <h4 className="showcase__list__item__number">03</h4>
-               <h2 className="showcase__list__item__label">Baba</h2>
-               <Link className="showcase__list__item__link" to="/">
-                 <svg className="right-arrow"></svg>
-               </Link>
-             </li>
-           </ul>
-        </div>
-      </section>
+      <Showcase/>
       <section className="outro">
         <div className="outro__content">
           <div className="heading">
-            <h1 className="heading-primary">we just want</h1>
+            <h1 className="heading-primary outro__title">we just want</h1>
           </div>
           <div>
-            <h1 className="heading-primary outro-heading">to see you</h1>
+            <h1 className="heading-primary outro__title">to see you</h1>
           </div>
           <div>
-            <h1 className="heading-primary">succeed</h1>
+            <h1 className="heading-primary outro__title">succeed</h1>
           </div>
         </div>
       </section>

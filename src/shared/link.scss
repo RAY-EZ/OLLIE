@@ -1,8 +1,12 @@
 %link__line {
   display: inline-block;
-  border-bottom: 1px solid $primary-color;
+  border-bottom: 0.1rem solid $primary-color;
 
   &:hover{
-    border-bottom: 2px solid $primary-color;
+    border-bottom: 0.2rem solid $primary-color;
   }
+}
+
+.link {
+  @extend %link__line;
 }
