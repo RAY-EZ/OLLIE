@@ -11,7 +11,7 @@ module.exports = merge(common, {
         test: /\.(jpe?g|png|gif|svg)$/i,
         type: "asset/resource",
         generator: {
-          // filename: '[name].[hash][ext]',
+          filename: '[name].[hash][ext]',
           publicPath: '/medias/',
           outputPath: './medias/'
         }
