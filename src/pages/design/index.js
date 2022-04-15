@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import Attention from '../../components/attention';
 import Slice from '../../components/slice';
 import Card from '../../components/card';
-import imgMeeting from '../../medias/meeting.jpg'
+import imgMeeting from '../../medias/meeting.JPG'
 import imgChairs from '../../medias/chairs.jpg';
 import rightArrow from '../../medias/right-arrow.svg';
 import Showcase from '../../components/showcase'

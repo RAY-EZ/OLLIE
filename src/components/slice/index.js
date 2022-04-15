@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import imgPhonebooth from '../../medias/phonebooth.jpg';
+import imgPhonebooth from '../../medias/phonebooth.JPG';
 import imgSetup from '../../medias/setup.jpg';
 
 function Slice(){
