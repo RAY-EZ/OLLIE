@@ -49,15 +49,6 @@ module.exports = {
           }
         ],
       },
-      // {
-      //   test: /\.(png|svg|jpg|jpeg|gif)$/i,
-      //   type: 'asset/resource',
-      //   generator: {
-      //     filename: '[name].[hash][ext]',
-      //     publicPath: '/medias/',
-      //     outputPath: './medias/'
-      //   }
-      // },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',

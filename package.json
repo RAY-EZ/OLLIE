@@ -21,9 +21,11 @@
   },
   "homepage": "https://github.com/RAY-EZ/react-webpack-boilerpate#readme",
   "dependencies": {
+    "gsap": "3.10.3",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "react-router-dom": "6.3.0"
+    "react-router-dom": "6.3.0",
+    "splitting": "1.0.6"
   },
   "devDependencies": {
     "@babel/core": "7.17.9",

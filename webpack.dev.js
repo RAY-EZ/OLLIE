@@ -7,5 +7,18 @@ module.exports = merge(common , {
   devServer: {
     static: './public',
     hot: true   // Hot reloading default: true
+  },
+  module: {
+    rules: [
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: '[name].[hash][ext]',
+          publicPath: '/medias/',
+          outputPath: './medias/'
+        }
+      },
+    ]
   }
 })
